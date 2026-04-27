@@ -12,14 +12,24 @@
 
 ### [homework/](./homework)
 
-各回で解消しきれなかった疑問を、次回の冒頭デモに向けた宿題として残す場所。
-ファイルは開催日ごとに `homework/YYYYMMDD.md` として追加する。
+各回で解消しきれなかったチェンジログ行を、次回の冒頭デモに向けた宿題として残す場所。
+構造は次の通り:
 
-- [homework/20260424.md](./homework/20260424.md) — `--agent` の振る舞いと有効な使い方
+```
+homework/
+  YYYYMMDD/              # 開催日（ハイフンなし 8 桁）
+    <slug>/              # 宿題 1 件 = 1 ディレクトリ。slug は短いトピック名
+      homework.md        # 疑問・調査メモ・使い分け等の writeup
+      demo/              # 次回冒頭デモで使う実物を置く
+        README.md        # デモ手順書
+        ...              # デモ用スクリプト・設定・ログ等
+```
+
+- [homework/20260424/agent/](./homework/20260424/agent) — `--agent` の振る舞いと有効な使い方
 
 ## 毎週の進め方
 
-1. 前回の宿題を冒頭でデモする
+1. 前回の宿題を冒頭でデモする（各 `homework/<date>/<slug>/demo/` の手順書に沿って実施）
 2. [.claude-code-version](./.claude-code-version) の続きから、その回の範囲でアップデートを追いかける
 3. 追いついた最新バージョンを [.claude-code-version](./.claude-code-version) に更新する
-4. 解消できなかった疑問を `homework/YYYYMMDD.md` に残す
+4. 解消できなかったチェンジログ行を `homework/YYYYMMDD/<slug>/homework.md` として残す（`/add-homework <slug> <changelog line>` で追加）
