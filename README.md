@@ -26,6 +26,7 @@ homework/
 ```
 
 - [homework/20260424/agent/](./homework/20260424/agent) — `--agent` の振る舞いと有効な使い方
+- [homework/20260519/session-start-agent/](./homework/20260519/session-start-agent)
 
 ## 毎週の進め方
 
