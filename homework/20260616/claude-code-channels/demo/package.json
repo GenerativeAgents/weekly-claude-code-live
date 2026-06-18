@@ -1,0 +1,10 @@
+{
+  "name": "relay-channel-demo",
+  "private": true,
+  "type": "module",
+  "description": "Weekly Claude Code Live demo: permission relay over a local channel server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}

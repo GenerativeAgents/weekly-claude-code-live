@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "relay-channel": { "command": "node", "args": ["./relay-channel.mjs"] }
+  }
+}
