@@ -1,0 +1,3 @@
+{"version": 2, "width": 80, "height": 24, "timestamp": 1782900783, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.001729, "o", "$ claude --help 2>&1 | grep -i 'exclude-dynamic' | head -3\r\n"]
+[1.131627, "o", "  --exclude-dynamic-system-prompt-sections\r\n"]

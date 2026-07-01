@@ -1,0 +1,5 @@
+{"version": 2, "width": 80, "height": 24, "timestamp": 1782900794, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.001745, "o", "$ claude --version\r\n"]
+[1.064134, "o", "2.1.197 (Claude Code)\r\n"]
+[2.468207, "o", "$ claude --help 2>&1 | grep -iE 'sandbox|deniedDomains' | head -3\r\n"]
+[3.602401, "o", "                                        sandboxes with no internet access.\r\n                                        Recommended only for sandboxes with no\r\n"]

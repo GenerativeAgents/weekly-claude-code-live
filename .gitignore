@@ -165,3 +165,17 @@ cython_debug/
 
 tmp/*
 !tmp/.gitkeep
+
+# --- Weekly Claude Code Live: 生成メディア（`bash build.sh` で再生成。素材=cast/beats.tsv/narration.txt は追跡） ---
+/session.mp4
+/preview.mp4
+/cover.png
+demo/**/demo.mp4
+demo/**/card.mp4
+demo/**/term.gif
+demo/**/bg.png
+demo/**/narration.mp3
+demo/**/still*.png
+demo/**/b[0-9].mp3
+demo/**/b[0-9].mp4
+demo/**/.beats.txt

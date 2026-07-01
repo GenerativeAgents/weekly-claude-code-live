@@ -1,0 +1,3 @@
+{"version": 2, "width": 80, "height": 24, "timestamp": 1782900778, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.001827, "o", "$ claude --help 2>&1 | grep -iA1 -- '--effort' | head -6\r\n"]
+[1.134616, "o", "  --effort <level>                      Effort level for the current session\r\n                                        (low, medium, high, xhigh, max)\r\n"]

@@ -1,0 +1,6 @@
+{"version": 2, "width": 80, "height": 24, "timestamp": 1782900770, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.001806, "o", "$ claude --handle-uri 'claude-cli://open?cwd=/tmp&q=first%0Asecond%0Athird'\r\n"]
+[1.131691, "o", "\u001b[0m\u001b[31mFailed to open a terminal. Make sure a supported terminal emulator is installed.\u001b[0m\r\n"]
+[1.131722, "o", "\u001b[?25h"]
+[2.737144, "o", "$ claude --handle-uri 'claude-cli://open?q=hello' EXTRA-ARG\r\n"]
+[3.786073, "o", "\u001b[0m\u001b[31mclaude: rejected deep-link invocation — unexpected arguments after the URI.\r\nThe OS protocol handler passes exactly `--handle-uri <uri>`; extra arguments indicate argument injection via the URL. If invoking --handle-uri manually, place other flags before it.\u001b[0m\r\n"]

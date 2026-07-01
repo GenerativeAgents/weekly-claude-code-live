@@ -1,0 +1,2 @@
+TITLE=Weekly Claude Code Live
+SUBTITLE=2.1.90 以降を眺める会
