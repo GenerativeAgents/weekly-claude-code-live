@@ -1,0 +1,4 @@
+{
+  "$comment": "今回のチェンジログ行。値は \"disable\" の一択。起動時の OS 登録を丸ごとスキップする。組織で強制するなら managed settings に置く。",
+  "disableDeepLinkRegistration": "disable"
+}

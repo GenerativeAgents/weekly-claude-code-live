@@ -1,0 +1,4 @@
+# デモ実行中に作る一時物（サンドボックスは mktemp なので基本 /tmp 側だが念のため）
+.sandbox/
+*.log
+node_modules/
